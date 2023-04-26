@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container__card{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 200px;
+}
+
+.card{
+    height: 450px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+form h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form__campo input{
+    width:450px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.form__campo input:focus {
+    border:1px solid black;
+}
+
+.form__campo input:invalid{
+    border: 2px solid red
+}
+
+.form__nome{
+    display: flex;
+    gap: 20px;
+
+}
+
+#nome{
+    width: 215px;
+    padding: 10px;
+}
+
+.form__check{
+    color:white;
+}
+
+.form__check a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .form__button button {
+    height: 50px;
+    width: 300px;
+    background-color:aqua;
+    border: none;
+    border-radius: 20px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+  }
+
+  .form__button button:hover{
+    background-color: rgb(17, 160, 160);
+  }
+
+
